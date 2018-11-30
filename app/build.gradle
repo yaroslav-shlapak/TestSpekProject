@@ -109,7 +109,7 @@ dependencies {
     testImplementation "org.spekframework.spek2:spek-runner-junit5:$spekVersion"
 
     // Test kotlin
-    testImplementation "org.jetbrains.kotlin:kotlin-reflect:$kotlinVersion"
+    testRuntimeOnly "org.jetbrains.kotlin:kotlin-reflect:$kotlinVersion"
     testImplementation "org.jetbrains.kotlin:kotlin-test:$kotlinVersion"
 
     // Test android
