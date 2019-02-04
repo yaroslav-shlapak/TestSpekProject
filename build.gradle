@@ -8,7 +8,7 @@ buildscript {
         maven { url "http://dl.bintray.com/davideas/maven" }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.4.0-alpha02'
+        classpath 'com.android.tools.build:gradle:3.3.0'
         //noinspection GradleDynamicVersion
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
         classpath "org.jacoco:org.jacoco.core:$jacocoVersion"
