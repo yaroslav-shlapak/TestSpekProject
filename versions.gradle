@@ -17,6 +17,6 @@ project.ext {
     junitJupiterVersion = "5.5.0-M1"
     junit5RunnerVersion = "0.2.2"
     junit5GradlePuginVersion = "1.4.2.0"
-    kotlinTestVersion = "3.2.1"//3.3.0+ leads to test exception
+    kotlinTestVersion = "3.3.2"//3.3.0+ leads to test exception
     mockkVersion = "1.9.3"
 }
